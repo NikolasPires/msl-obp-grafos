@@ -1,0 +1,13 @@
+Base: Scopus (campo TITLE-ABS-KEY)
+Data de execução: 10/11/2026
+Registros recuperados: 110
+
+( TITLE-ABS-KEY ( ( "order batching" OR "batch picking" OR "wave picking" OR "order selection" ) AND ( graph OR "complex network" OR "community detection" OR "graph partition*" OR gnn OR "graph neural network" ) AND ( warehouse OR "order picking" OR e-commerce ) ) AND PUBYEAR > 2015 AND PUBYEAR < 2027 )
+OR
+( TITLE-ABS-KEY ( ( "storage location assignment" OR "storage assignment" OR slotting ) AND warehouse AND ( correlat* OR "co-occurrence" OR affinity OR association ) AND ( graph OR network OR "community detection" OR clustering ) ) AND PUBYEAR > 2015 AND PUBYEAR < 2027 )
+OR
+( TITLE-ABS-KEY ( ( "order selection" OR "wave picking" OR "wave planning" ) AND ( aisle OR aisles ) AND ( warehouse OR "order picking" OR sbpo OR "Mercado Livre" ) ) )
+OR
+( TITLE-ABS-KEY ( ( "capacitated clustering" OR "capacitated graph partitioning" OR "densest subgraph" ) AND ( heuristic OR metaheuristic OR evolutionary OR "local search" ) ) AND PUBYEAR > 2015 AND PUBYEAR < 2027 )
+OR
+( TITLE-ABS-KEY ( ( "genetic algorithm" OR memetic OR "local search" ) AND ( "community detection" OR "community structure" OR centrality ) AND "combinatorial optimization" ) AND PUBYEAR > 2015 AND PUBYEAR < 2027 )
